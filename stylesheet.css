@@ -1,0 +1,36 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align:center;
+  background-color: #111111;
+  color: #eeeeee;
+  font-size: 30px;
+  line-height: 0.7em;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.links{
+  word-spacing: 3em;
+}
+
+a{
+  color: #eeeeee; 
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+h4{
+  font-size: 20px;
+}
