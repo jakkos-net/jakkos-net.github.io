@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | raytongue</title>
+    <title>Unity WebGL Player | mandeltongue</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <br>
-    <center><a href="https://notongue.com/#mandeltongue"><b>Go Back</b></a></center>
+      <br>
+      <center><a href="https://notongue.com/#mandeltongue"><b>Go Back</b></a></center>
+      <br>
+      <center><p></p>WASD to move, right click and drag to look around</p></center>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -24,21 +26,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">raytongue</div>
+        <div id="unity-build-title">mandeltongue</div>
       </div>
     </div>
-    <br>
-    <center><p></p>WASD to move, right click and drag to look around</p></center>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data.gz",
-        frameworkUrl: buildUrl + "/Build.framework.js.gz",
-        codeUrl: buildUrl + "/Build.wasm.gz",
+        dataUrl: buildUrl + "/Build.data",
+        frameworkUrl: buildUrl + "/Build.framework.js",
+        codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "raytongue",
+        productName: "mandeltongue",
         productVersion: "0.1",
       };
 
