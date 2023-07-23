@@ -1,2 +1,2 @@
-# jakkosdev.github.io
+# jakkos-net.github.io
 Personal Website
